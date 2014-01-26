@@ -1,0 +1,22 @@
+{
+    "name": "bocharsky-bw/numeral-system-converter",
+    "description": "Convert numbers to different numeral systems.",
+    "keywords": ["numeral system", "converter", "radix", "binary", "octal", "decimal", "hexadecimal"],
+    "type": "library",
+    "homepage": "https://github.com/bocharsky-bw/numeral-system-converter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bocharsky Victor",
+            "homepage": "https://github.com/bocharsky-bw/numeral-system-converter/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    }
+}
